@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex justify-center items-center bg-zinc-900 h-screen">
+      <div class="card flex flex-col md:flex-row bg-zinc-700 rounded-xl">
+        <img
+          src="./image.jpg"
+          class="rounded-xl md:rounded-l-xl hover:scale-105 duration-500 h-80 md:h-64 cursor-pointer md:rounded-r-none object-fit"
+        />
+        <div class="p-6 md:p-12">
+          <h3
+            class="text-center md:text-left text-white font-medium font-serif"
+          >
+            Get notifed about your diet plans
+          </h3>
+
+          <p
+            class="max-w-sm text-white text-center md:text-left my-4 text-xs tracking-wide"
+          >
+            Eat better and exercise. Signup for your daily diet plan and
+            newsletter
+          </p>
+
+          <div
+            class="flex flex-col md:flex-row mt-5 space-y-4 md:space-y-0 md:space-x-4"
+          >
+            <input
+              type="text"
+              class="p-2 px-4 bg-zinc-800 rounded-xl text-center md:text-left text-white border border-zinc-500 focus:outline-none"
+              placeholder="Enter your email"
+            />
+
+            <button
+              class="px-5 py-2 text-xs rounded-md bg-lime-500 hover:bg-lime-400 duration-500 hover:text-black font-medium"
+            >
+              Subscribe now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
