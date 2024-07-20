@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex justify-center items-center bg-cyan-50 min-h-screen">
+      <!-- Container -->
+      <div class="bg-white p-6 m-3 md:p-20 rounded-2xl shadow-2xl">
+        <!-- Menu Conatiner  -->
+        <div
+          class="flex flex-col px-2 space-y-2 items-center justify-center md:flex-row md:space-y-0 md:justify-end md:space-x-8 md:mb-24"
+        >
+          <div class="group">
+            <a href="">Vector</a>
+            <div
+              class="mx-2 mt-2 opacity-0 border-b-2 border-black group-hover:opacity-100 duration-300"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="">Illustrations</a>
+            <div
+              class="mx-2 mt-2 opacity-0 border-b-2 border-black group-hover:opacity-100 duration-300"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="">Images</a>
+            <div
+              class="mx-2 mt-2 opacity-0 border-b-2 border-black group-hover:opacity-100 duration-300"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="">Icons</a>
+            <div
+              class="mx-2 mt-2 opacity-0 border-b-2 border-black group-hover:opacity-100 duration-300"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Search Container -->
+        <div
+          class="flex flex-col space-y-4 items-center md:flex-row md:justify-between mb-3"
+        >
+          <div class="flex border-b space-y-5 items-center">
+            <input
+              type="text"
+              class="border-none md:w-64 focus:outline-none ml-6"
+              placeholder="Search"
+            />
+            <button class="flex justify-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 50 50"
+                class="h-7 w-7"
+              >
+                <path
+                  d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <button
+            class="bg-black px-8 py-2 text-white duration-400 hover:bg-white hover:text-black border rounded-md"
+          >
+            Upload
+          </button>
+        </div>
+
+        <!-- Images Container  -->
+
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div class="relative group">
+            <img
+              src="./image-gallery/images/image1.jpg"
+              alt=""
+              class="w-72 rounded-md"
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 py-1 px-4 bg-black duration-500 opacity-0 group-hover:opacity-50 bg-opacity-80 text-white"
+            >
+              <div class="flex justify-between">
+                <div class="font-normal">
+                  <p>Abstract Painting</p>
+                  <p>235 Likes -1 Comment</p>
+                </div>
+                <div>
+                  <img
+                    src="./image-gallery/images/bookmark.svg"
+                    alt=""
+                    class="flex items-center"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img
+              src="./image-gallery/images/image2.jpg"
+              alt=""
+              class="w-72 rounded-md"
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 py-1 px-4 bg-black duration-500 opacity-0 group-hover:opacity-50 bg-opacity-80 text-white"
+            >
+              <div class="flex justify-between">
+                <div class="font-normal">
+                  <p>Abstract Painting</p>
+                  <p>235 Likes -1 Comment</p>
+                </div>
+                <div>
+                  <img
+                    src="./image-gallery/images/bookmark.svg"
+                    alt=""
+                    class="flex items-center"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img
+              src="./image-gallery/images/image3.jpg"
+              alt=""
+              class="w-72 rounded-md"
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 py-1 px-4 bg-black duration-500 opacity-0 group-hover:opacity-50 bg-opacity-80 text-white"
+            >
+              <div class="flex justify-between">
+                <div class="font-normal">
+                  <p>Abstract Painting</p>
+                  <p>235 Likes -1 Comment</p>
+                </div>
+                <div>
+                  <img
+                    src="./image-gallery/images/bookmark.svg"
+                    alt=""
+                    class="flex items-center"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img
+              src="./image-gallery/images/image4.jpg"
+              alt=""
+              class="w-72 rounded-md"
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 py-1 px-4 bg-black duration-500 opacity-0 group-hover:opacity-50 bg-opacity-80 text-white"
+            >
+              <div class="flex justify-between">
+                <div class="font-normal">
+                  <p>Abstract Painting</p>
+                  <p>235 Likes -1 Comment</p>
+                </div>
+                <div>
+                  <img
+                    src="./image-gallery/images/bookmark.svg"
+                    alt=""
+                    class="flex items-center"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img
+              src="./image-gallery/images/image5.jpg"
+              alt=""
+              class="w-72 rounded-md"
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 py-1 px-4 bg-black duration-500 opacity-0 group-hover:opacity-50 bg-opacity-80 text-white"
+            >
+              <div class="flex justify-between">
+                <div class="font-normal">
+                  <p>Abstract Painting</p>
+                  <p>235 Likes -1 Comment</p>
+                </div>
+                <div>
+                  <img
+                    src="./image-gallery/images/bookmark.svg"
+                    alt=""
+                    class="flex items-center"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <img
+              src="./image-gallery/images/image6.jpg"
+              alt=""
+              class="w-72 rounded-md"
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 py-1 px-4 bg-black duration-500 opacity-0 group-hover:opacity-50 bg-opacity-80 text-white"
+            >
+              <div class="flex justify-between">
+                <div class="font-normal">
+                  <p>Abstract Painting</p>
+                  <p>235 Likes -1 Comment</p>
+                </div>
+                <div>
+                  <img
+                    src="./image-gallery/images/bookmark.svg"
+                    alt=""
+                    class="flex items-center"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
